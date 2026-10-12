@@ -22,3 +22,6 @@ jobs:
 
       - name: Check Dockerfile exists
         run: test -f Dockerfile
+
+      - name: Run Bash health check
+        run: bash health-check.sh
